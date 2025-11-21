@@ -1,0 +1,1606 @@
+locale: he-HE
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_devs.description
+    t: The developer survey about everything else
+
+  - key: general.state_of_devs.intro
+    t: |
+
+      While asking about your favorite JavaScript framework over and over again is all well and good, we thought it was time to take on the bigger questions in life: who are you? what do you do besides coding? and what do you believe and hope for?
+
+      This is what the State of Devs survey is all about. This time, it's about everything that's *not* code.
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: tools.tools_intro.ai2025
+    t: |
+      This first part of the survey is all about which AI tools you use, or have heard about.
+
+  - key: sections.career.title
+    t: Career
+  - key: sections.career.prompt
+    t: Your career and work experience up to now.
+
+  - key: sections.workplace.title
+    t: Workplace
+  - key: sections.workplace.prompt
+    t: Your current workplace.
+
+  - key: sections.technology.title
+    t: Technology
+  - key: sections.technology.prompt
+    t: The apps, languages, and platforms you use.
+
+  - key: sections.health.title
+    t: Health
+  - key: sections.health.prompt
+    t: Health & fitness.
+
+  - key: sections.worldview.title
+    t: Worldview
+  - key: sections.worldview.prompt
+    t: Worldview, politics, and current events.
+
+  - key: sections.hobbies.title
+    t: Hobbies
+  - key: sections.hobbies.prompt
+    t: Your other passions.
+
+  # employment_status
+  - key: career.employment_status
+    aliasFor: user_info.employment_status
+  - key: career.employment_status.question
+    aliasFor: user_info.employment_status.question
+
+  # how_many_jobs
+  - key: career.how_many_jobs
+    t: Employer Count
+  - key: career.how_many_jobs.question
+    t: How many employers have you worked for up to now?
+  - key: career.how_many_jobs.prompt
+    t: Only including salaried developer positions.
+
+  - key: options.how_many_jobs.range_1
+    t: 1
+  - key: options.how_many_jobs.range_2
+    t: 2
+  - key: options.how_many_jobs.range_3
+    t: 3
+  - key: options.how_many_jobs.range_4
+    t: 4
+  - key: options.how_many_jobs.range_5
+    t: 5
+  - key: options.how_many_jobs.range_6_10
+    t: 6-10
+  - key: options.how_many_jobs.range_11_20
+    t: 11-20
+  - key: options.how_many_jobs.range_over_20
+    t: Over 20
+  # career_issues
+
+  - key: career.career_issues
+    t: Workplace Issues
+  - key: career.career_issues.question
+    t: Which of these workplace issues have you experienced throughout your professional career?
+
+  - key: career.career_issues.commentPrompt
+    t: |
+      Please tell us more about the specific issues you've encountered if you'd like to. 
+
+      ⚠️ WARNING: your comment **will be made public**, so please make sure to leave out 
+      any information that could be used to identify you or your company.
+
+  - key: options.career_issues.harassment
+    t: Harassment
+  - key: options.career_issues.harassment.description
+    t: Unwelcome behavior that creates a hostile work environment.
+
+  - key: options.career_issues.sexual_harassment
+    t: Sexual harassment
+  - key: options.career_issues.sexual_harassment.description
+    t: Unwelcome behavior of a sexual nature that creates a hostile work environment.
+
+  - key: options.career_issues.non_sexual_harassment
+    t: Non-sexual harassment
+  - key: options.career_issues.non_sexual_harassment.description
+    t: Other targeted forms of harassment that creates a hostile work environment.
+
+  - key: options.career_issues.gender_discrimination
+    t: Gender discrimination
+  - key: options.career_issues.gender_discrimination.description
+    t: Being discriminated against based on your gender.
+
+  - key: options.career_issues.race_discrimination
+    t: Race discrimination
+  - key: options.career_issues.race_discrimination.description
+    t: Being discriminated against based on your race.
+
+  - key: options.career_issues.discrimination
+    t: Discrimination
+  - key: options.career_issues.discrimination.description
+    t: Being discriminated against based on personal characteristics.
+
+  - key: options.career_issues.mental_health_issues
+    t: Mental health issues
+  - key: options.career_issues.mental_health_issues.description
+    t: Workplace-induced mental health issues such as stress or anxiety.
+
+  - key: options.career_issues.excessive_overtime
+    t: Work-life balance issues
+  - key: options.career_issues.excessive_overtime.description
+    t: Excessive overtime, lack of work-life boundaries, etc.
+
+  - key: options.career_issues.underpaid_work
+    t: Insufficient wages
+  - key: options.career_issues.underpaid_work.description
+    t: Insufficient salary or income.
+
+  - key: options.career_issues.burnout
+    t: Burnout
+  - key: options.career_issues.burnout.description
+    t: Feeling overwhelmed with work, leading to lack of motivation or depression.
+
+  - key: options.career_issues.job_insecurity
+    t: Job insecurity
+  - key: options.career_issues.job_insecurity.description
+    t: Being afraid of losing your job; or difficulties finding a new one.
+
+  - key: options.career_issues.bad_management
+    t: Bad management
+  - key: options.career_issues.bad_management.description
+    t: Overall bad work environment due to poor management practices.
+
+  - key: options.career_issues.boredom
+    t: Boredom
+
+  # discrimination_issues
+
+  - key: career.discrimination_issues
+    t: Discrimination
+  - key: career.discrimination_issues.question
+    t: Have you ever experienced discrimination in the workplace based on any of the following factors?
+
+  - key: options.discrimination_issues.gender
+    t: Gender or gender identity
+  - key: options.discrimination_issues.sexual_orientation
+    t: Sexual orientation
+  - key: options.discrimination_issues.race
+    t: Race
+  - key: options.discrimination_issues.religion
+    t: Religion or spiritual beliefs
+  - key: options.discrimination_issues.age
+    t: Age
+  - key: options.discrimination_issues.political_views
+    t: Political beliefs or affiliations
+  - key: options.discrimination_issues.caregiving_status
+    t: Caregiving responsibilities
+  - key: options.discrimination_issues.caregiving_status.description
+    t: Such as pregnancy, parenting, elder care, etc.
+  - key: options.discrimination_issues.disability
+    t: Disabilities
+  - key: options.discrimination_issues.disability.description
+    t: Including physical, mental, or neurodivergent conditions.
+
+  - key: options.discrimination_issues.country_citizenship
+    t: Country of origin
+  - key: options.discrimination_issues.appearance_body
+    t: Physical appearance or characteristics
+
+  - key: career.discrimination_issues.commentPrompt
+    aliasFor: career.career_issues.commentPrompt
+
+  # negative_impacts
+
+  - key: career.negative_impacts
+    t: Negative Impact
+  - key: career.negative_impacts.question
+    t: Have you taken any of the following actions in response to workplace issues?
+
+  - key: options.negative_impacts.changing_appearance
+    t: Changed your appearance or the way you dress
+  - key: options.negative_impacts.changing_appearance.short
+    t: Changed appearance
+
+  - key: options.negative_impacts.changing_behavior
+    t: Changed the way you speak, behave, or express yourself
+  - key: options.negative_impacts.changing_behavior.short
+    t: Changed behavior
+
+  - key: options.negative_impacts.reported_someone
+    t: Reported the issue to management or Human Resources
+  - key: options.negative_impacts.reported_someone.short
+    t: Reported issue to HR
+
+  - key: options.negative_impacts.isolating_yourself
+    t: Avoided or distanced yourself from colleagues
+  - key: options.negative_impacts.isolating_yourself.short
+    t: Avoided colleagues
+
+  - key: options.negative_impacts.internal_transfer
+    t: Requested a transfer to another team or department
+  - key: options.negative_impacts.internal_transfer.short
+    t: Requested transfer
+
+  - key: options.negative_impacts.time_off
+    t: Taken a leave of absence or time off work
+  - key: options.negative_impacts.time_off.short
+    t: Taken time off
+
+  - key: options.negative_impacts.quitting_job
+    t: Resigned from a job
+  - key: options.negative_impacts.quitting_job.short
+    t: Resigned
+
+  - key: options.negative_impacts.shifting_careers
+    t: Changed careers or industries
+  - key: options.negative_impacts.shifting_careers.short
+    t: Changed careers
+
+  - key: options.negative_impacts.seeking_counseling
+    t: Sought therapy, counseling, or mental health support
+  - key: options.negative_impacts.seeking_counseling.short
+    t: Sought therapy
+
+  - key: options.negative_impacts.engaging_legal_counsel
+    t: Consulted with legal counsel
+  - key: options.negative_impacts.engaging_legal_counsel.short
+    t: Legal counsel
+
+  - key: options.negative_impacts.scaling_back
+    t: Reduced your work hours or taken a less demanding role
+  - key: options.negative_impacts.scaling_back.short
+    t: Reduced work hours
+
+  - key: options.negative_impacts.taking_medicine
+    t: Taken medication for stress, anxiety, depression, etc.
+  - key: options.negative_impacts.taking_medicine.short
+    t: Taken medication
+
+  - key: career.negative_impacts.commentPrompt
+    aliasFor: career.career_issues.commentPrompt
+
+  # past_year_conferences
+
+  - key: career.past_year_conferences
+    t: Conferences
+  - key: career.past_year_conferences.question
+    t: How many conferences have you attended in the past year?
+
+  - key: career.past_year_meetups_events
+    t: Meetups & Events
+  - key: career.past_year_meetups_events.question
+    t: How many meetups & local events have you attended in the past year?
+
+  - key: options.past_year_conferences.range_0
+    t: None
+    aliases:
+      - options.past_year_meetups_events.range_0
+  - key: options.past_year_conferences.range_1
+    t: 1
+    aliases:
+      - options.past_year_meetups_events.range_1
+  - key: options.past_year_conferences.range_2_5
+    t: 2-5
+    aliases:
+      - options.past_year_meetups_events.range_2_5
+  - key: options.past_year_conferences.range_6_10
+    t: 6-10
+    aliases:
+      - options.past_year_meetups_events.range_6_10
+  - key: options.past_year_conferences.range_11_15
+    t: 11-15
+    aliases:
+      - options.past_year_meetups_events.range_11_15
+  - key: options.past_year_conferences.range_more_than_15
+    t: More than 15
+    aliases:
+      - options.past_year_meetups_events.range_more_than_15
+
+  # laid_off
+
+  - key: career.laid_off
+    t: Layoffs
+  - key: career.laid_off.question
+    t: Have you ever been laid off?
+
+  - key: options.laid_off.yes_past_year
+    t: Yes, during the past 12 months
+  - key: options.laid_off.yes_before
+    t: Yes, sometimes before that
+  - key: options.laid_off.no
+    t: I've never been laid off
+
+  # WORKPLACE
+
+  - key: workplace.company_size
+    aliasFor: user_info.company_size
+  - key: workplace.company_size.question
+    aliasFor: user_info.company_size.question
+
+  - key: workplace.job_title
+    aliasFor: user_info.job_title
+  - key: workplace.job_title.question
+    aliasFor: user_info.job_title.question
+
+  - key: workplace.income_evolution
+    aliasFor: user_info.income_evolution
+  - key: workplace.income_evolution.question
+    aliasFor: user_info.income_evolution.question
+
+  - key: workplace.remote_work_policy
+    t: Remote Work
+  - key: workplace.remote_work_policy.question
+    t: What best describes your employer's remote work policy?
+
+  - key: options.remote_work_policy.no_remote_work
+    t: No remote work
+  - key: options.remote_work_policy.no_remote_work.description
+    t: All employees must attend the office.
+  - key: options.remote_work_policy.hybrid
+    t: Hybrid
+  - key: options.remote_work_policy.hybrid.description
+    t: Some remote work is permitted, but employees must regularly attend the office.
+  - key: options.remote_work_policy.up_to_employee
+    t: Up to the employee
+  - key: options.remote_work_policy.up_to_employee.description
+    t: Employees can choose whether to work remotely or in the office.
+  - key: options.remote_work_policy.fully_remote
+    t: Exclusively remote
+  - key: options.remote_work_policy.fully_remote.description
+    t: All employees work completely remotely.
+  - key: options.remote_work_policy.na
+    t: 🚫 Not applicable
+  - key: options.remote_work_policy.na.description
+    t: Solo worker
+
+  - key: options.remote_work_policy.depends_on_role
+    t: Depends on role
+  - key: options.remote_work_policy.mostly_remote
+    t: Mostly remote
+  - key: options.remote_work_policy.hybrid_remote_work
+    t: Hybrid
+  - key: options.remote_work_policy.freelance_self_employed
+    t: Freelancer/self-employed
+  - key: options.remote_work_policy.remote_based_on_distance
+    t: Based on distance from company
+
+  - key: workplace.work_hours_per_week
+    t: Work Hours
+  - key: workplace.work_hours_per_week.question
+    t: In a typical week, how many hours do you work?
+
+  - key: options.work_hours_per_week.range_under_30
+    t: Under 30
+  - key: options.work_hours_per_week.range_31_35
+    t: 31-35
+  - key: options.work_hours_per_week.range_36_40
+    t: 36-40
+  - key: options.work_hours_per_week.range_41_45
+    t: 41-45
+  - key: options.work_hours_per_week.range_46_50
+    t: 46-50
+  - key: options.work_hours_per_week.range_over_50
+    t: Over 50
+
+  - key: workplace.job_happiness
+    t: Job Happiness
+  - key: workplace.job_happiness.question
+    t: How happy are you with your current job?
+
+  - key: options.job_happiness.0
+    aliasFor: options.happiness.0
+  - key: options.job_happiness.1
+    aliasFor: options.happiness.1
+  - key: options.job_happiness.2
+    aliasFor: options.happiness.2
+  - key: options.job_happiness.3
+    aliasFor: options.happiness.3
+  - key: options.job_happiness.4
+    aliasFor: options.happiness.4
+
+  # - key: workplace.job_ai_threat
+  #   t: a
+
+  # workplace_difficulties
+
+  - key: workplace.workplace_difficulties
+    t: Workplace Difficulties
+  - key: workplace.workplace_difficulties.question
+    t: What are the negative aspects of the working environment at your current employer?
+
+  - key: options.workplace_difficulties.coworker_relations
+    t: Relationships with coworkers
+  - key: options.workplace_difficulties.coworker_relations.description
+    t: Harassment, poor communication, etc.
+
+  - key: options.workplace_difficulties.company_culture
+    t: Company culture
+  - key: options.workplace_difficulties.company_culture.description
+    t: Toxic culture, bad work practices, etc.
+
+  - key: options.workplace_difficulties.working_conditions
+    t: Working conditions
+  - key: options.workplace_difficulties.working_conditions.description
+    t: Old equipment, cramped spaces, etc.
+
+  - key: options.workplace_difficulties.job_security
+    t: Job security
+  - key: options.workplace_difficulties.job_security.description
+    t: Poor job security, short-term contracts, etc.
+
+  - key: options.workplace_difficulties.work_content
+    t: Work content
+  - key: options.workplace_difficulties.work_content.description
+    t: Uninteresting tasks, tasks not matching job description, excessive idle time, etc.
+
+  - key: options.workplace_difficulties.work_life_balance
+    t: Work-life balance
+  - key: options.workplace_difficulties.work_life_balance.description
+    t: Burnout, excessive overtime, forced company events, etc.
+
+  - key: options.workplace_difficulties.compensation
+    t: Compensation
+  - key: options.workplace_difficulties.compensation.description
+    t: Insufficient compensation
+
+  - key: options.workplace_difficulties.training
+    t: Training & professional development
+  - key: options.workplace_difficulties.training.description
+    t: Lack of training and development
+
+  - key: options.workplace_difficulties.bad_management
+    t: Poor management
+  - key: options.workplace_difficulties.in_person_work
+    t: In-person work requirements
+  - key: options.workplace_difficulties.lack_of_human_contact
+    t: Lack of human contact
+  - key: options.workplace_difficulties.bureaucracy
+    t: Excessive bureaucracy
+
+    # workplace_perks
+
+  - key: workplace.workplace_perks
+    t: Workplace Perks
+  - key: workplace.workplace_perks.question
+    t: What do you enjoy about your current workplace?
+
+  - key: options.workplace_perks.coworker_relations
+    aliasFor: options.workplace_difficulties.coworker_relations
+  - key: options.workplace_perks.coworker_relations.description
+    t: Good relations with coworkers
+
+  - key: options.workplace_perks.company_culture
+    aliasFor: options.workplace_difficulties.company_culture
+  - key: options.workplace_perks.company_culture.description
+    t: Positive company culture, attention to quality, etc.
+
+  - key: options.workplace_perks.working_conditions
+    aliasFor: options.workplace_difficulties.working_conditions
+  - key: options.workplace_perks.working_conditions.description
+    t: Good work environment, modern equipment, etc.
+
+  - key: options.workplace_perks.job_security
+    aliasFor: options.workplace_difficulties.job_security
+  - key: options.workplace_perks.job_security.description
+    t: Stable job, long-term contracts, etc.
+
+  - key: options.workplace_perks.work_content
+    aliasFor: options.workplace_difficulties.work_content
+  - key: options.workplace_perks.work_content.description
+    t: Interesting tasks, fulfilling job, etc.
+
+  - key: options.workplace_perks.work_life_balance
+    aliasFor: options.workplace_difficulties.work_life_balance
+  - key: options.workplace_perks.work_life_balance.description
+    t: No overtime, flexible hours, etc.
+
+  - key: options.workplace_perks.compensation
+    aliasFor: options.workplace_difficulties.compensation
+  - key: options.workplace_perks.compensation.description
+    t: Good compensation
+
+  - key: options.workplace_perks.training
+    aliasFor: options.workplace_difficulties.training
+  - key: options.workplace_perks.training.description
+    t: Company-provided training and skill development
+
+  - key: options.workplace_perks.remote_work_benefit
+    t: Remote work benefits
+
+  # job_finding_application_count
+
+  - key: workplace.job_finding_application_count
+    t: Number of Applications
+  - key: workplace.job_finding_application_count.question
+    t: How many positions did you apply to before getting your current job?
+
+  - key: options.job_finding_application_count.range_0
+    t: None (did not apply)
+  - key: options.job_finding_application_count.range_1
+    t: 1
+  - key: options.job_finding_application_count.range_2_5
+    t: 2-5
+  - key: options.job_finding_application_count.range_5_10
+    t: 5-10
+  - key: options.job_finding_application_count.range_10_50
+    t: 10-50
+  - key: options.job_finding_application_count.range_50_100
+    t: 50-100
+  - key: options.job_finding_application_count.range_over_100
+    t: 100+
+
+  # job_finding_methods
+
+  - key: workplace.job_finding_methods
+    t: Job Finding
+  - key: workplace.job_finding_methods.question
+    t: How did you find your current job?
+
+  - key: options.job_finding_methods.job_board
+    t: Job board
+  - key: options.job_finding_methods.direct_application
+    t: Direct application to the company
+  - key: options.job_finding_methods.recruiter
+    t: Recruiter
+  - key: options.job_finding_methods.personal_network
+    t: Personal network
+  - key: options.job_finding_methods.referral
+    t: Referral
+  - key: options.job_finding_methods.linkedin
+    t: LinkedIn
+  - key: options.job_finding_methods.social_media
+    t: Other social media (Facebook, X, etc.)
+  - key: options.job_finding_methods.internal_transfer
+    t: Internal promotion or transfer
+  - key: options.job_finding_methods.open_source_community
+    t: Open source or community involvement
+  - key: options.job_finding_methods.company_founder
+    t: Founded the company or self-employed
+
+  - key: options.job_finding_methods.contacted_by_company
+    t: Founded the company or self-employed
+  - key: options.job_finding_methods.internship
+    t: Internship
+  - key: options.job_finding_methods.through_university
+    t: Through university
+  - key: options.job_finding_methods.merger_acquisition
+    t: Merger or acquisition
+  - key: options.job_finding_methods.career_fair
+    t: Career fair
+
+  # - key: workplace.how_much_can_you_be_yourself_at_work
+  #   t:
+
+  # technology
+
+  # mobile_os
+  - key: technology.mobile_os
+    t: Mobile OS
+  - key: technology.mobile_os.question
+    t: Which mobile OS do you use most?
+  # - key: technology.mobile_os.prompt
+  #   t: Including work use and personal use.
+
+  - key: options.mobile_os.ios
+    t: iOS
+  - key: options.mobile_os.android
+    t: Android
+  - key: options.mobile_os.no_smartphone
+    t: I don't have a smartphone
+
+  # desktop_os
+  - key: technology.desktop_os
+    t: Desktop OS
+  - key: technology.desktop_os.question
+    t: Which desktop OS do you use most?
+  # - key: technology.desktop_os.question
+  #   aliasFor: technology.mobile_os.prompt
+
+  - key: options.desktop_os.mac_os
+    t: macOS
+  - key: options.desktop_os.windows
+    t: Windows
+  - key: options.desktop_os.linux
+    t: Linux
+
+  # programming_languages
+  - key: technology.programming_languages
+    t: Programming Languages
+  - key: technology.programming_languages.question
+    t: Which programming languages do you code in?
+
+  # ai_tools
+  - key: technology.ai_tools
+    t: AI Tools
+  - key: technology.ai_tools.question
+    t: Which AI tools do you use regularly?
+
+  # productivity_apps
+  - key: technology.productivity_apps
+    t: Productivity Apps
+  - key: technology.productivity_apps.question
+    t: Which productivity apps do you use regularly?
+
+  # chat_apps
+  - key: technology.chat_apps
+    t: Messaging Apps
+  - key: technology.chat_apps.question
+    t: Which messaging apps do you use regularly?
+
+  # social_media
+  - key: technology.social_media
+    t: Social Media
+  - key: technology.social_media.question
+    t: Which social media sites do you use regularly?
+
+  # community_involvement
+
+  - key: technology.community_involvement
+    t: Community Involvement
+  - key: technology.community_involvement.question
+    t: Which of these methods do you use to stay involved with the developer community?
+
+  - key: options.community_involvement.meetups
+    t: Local meetups
+  - key: options.community_involvement.conferences
+    t: Conferences
+  - key: options.community_involvement.forums
+    t: Online platforms (GitHub, Stack Overflow, etc.)
+  - key: options.community_involvement.chatrooms
+    t: Online chatrooms (Discord, Slack, etc.)
+  - key: options.community_involvement.social_media
+    t: Social media
+  - key: options.community_involvement.newsletters
+    t: Newsletters
+  - key: options.community_involvement.videos
+    t: Videos (YouTube, etc.)
+  - key: options.community_involvement.streaming
+    t: Streaming (Twitch, etc.)
+  - key: options.community_involvement.podcasts
+    t: Podcasts
+
+  - key: options.community_involvement.blogs_websites
+    t: Blogs & websites
+  - key: options.community_involvement.rss_feeds
+    t: RSS feeds
+
+  # community_contributions
+
+  - key: technology.community_contributions
+    t: Community Contributions
+  - key: technology.community_contributions.question
+    t: Which of these methods have you used over the past 12 months to contribute to the community?
+
+  - key: options.community_contributions.conference
+    t: Attended a meetup or conference
+  - key: options.community_contributions.talk
+    t: Gave a talk
+  - key: options.community_contributions.blog_post
+    t: Wrote a blog post
+  - key: options.community_contributions.answer_question
+    t: Answered a question or issue
+  - key: options.community_contributions.financial_support
+    t: Financially supported a developer or project
+  - key: options.community_contributions.event_organization
+    t: Organized an event
+  - key: options.community_contributions.open_source_contribution
+    t: Contributed to open-source software
+
+  - key: options.community_contributions.mentoring
+    t: Mentoring
+
+  # open_source_involvement
+  - key: technology.open_source_involvement
+    t: Open Source
+  - key: technology.open_source_involvement.question
+    t: How have you been involved with open source software over your career?
+
+  - key: options.open_source_involvement.regular_use
+    t: I've used open source software
+  - key: options.open_source_involvement.code_contribution
+    t: I've contributed code to open source projects
+  - key: options.open_source_involvement.documentation
+    t: I've contributed documentation or other non-code assets
+  - key: options.open_source_involvement.submit_issues
+    t: I've submitted issues or bug reports
+  - key: options.open_source_involvement.created_projects
+    t: I've created or maintained open source projects
+  - key: options.open_source_involvement.documentation
+    t: I've financially supported open source projects
+  - key: options.open_source_involvement.na
+    t: No involvement
+
+  # health
+
+  - key: health.health_issues
+    t: Health Issues
+  - key: health.health_issues.question
+    t: Which ongoing health issues are you experiencing?
+
+  - key: options.health_issues.poor_sleep
+    t: Poor sleep
+  - key: options.health_issues.weight_issues
+    t: Weight issues
+  - key: options.health_issues.respiratory_issues
+    t: Respiratory issues
+  - key: options.health_issues.diabetes
+    t: Diabetes
+  - key: options.health_issues.chronic_fatigue
+    t: Chronic fatigue
+  - key: options.health_issues.heart_disease
+    t: Heart disease
+  - key: options.health_issues.cancer
+    t: Cancer
+  - key: options.health_issues.mental_health_issues
+    t: Mental health issues
+  - key: options.health_issues.substance_abuse_issues
+    t: Substance abuse issues
+  - key: options.health_issues.back_pain
+    t: Back pain
+  - key: options.health_issues.wrist_hand_pain
+    t: Wrist/hand pain
+  - key: options.health_issues.other_joint_pain
+    t: Other joint pain
+  - key: options.health_issues.skin_issues
+    t: Skin issues
+  - key: options.health_issues.headaches
+    t: Headaches & migraines
+
+  - key: options.health_issues.gastrointestinal_issues
+    t: Gastrointestinal issues
+  - key: options.health_issues.high_blood_pressure
+    t: High blood pressure
+
+  # sleep_quantity
+  - key: health.sleep_quantity
+    t: Sleep Quantity
+  - key: health.sleep_quantity.question
+    t: On average, how many hours do you sleep per night?
+
+  - key: options.sleep_quantity.range_5_or_less
+    t: 5 or fewer
+  - key: options.sleep_quantity.range_6
+    t: 6
+  - key: options.sleep_quantity.range_7
+    t: 7
+  - key: options.sleep_quantity.range_8
+    t: 8
+  - key: options.sleep_quantity.range_9
+    t: 9
+  - key: options.sleep_quantity.range_10
+    t: 10
+  - key: options.sleep_quantity.more_than_10
+    t: 10 or more
+
+  # sleep_bedtime
+  - key: health.sleep_bedtime
+    t: Bedtime
+  - key: health.sleep_bedtime.question
+    t: What time do you usually go to sleep?
+
+  - key: health.sleep_wakeuptime
+    t: Wake Up Time
+  - key: health.sleep_wakeuptime.question
+    t: What time do you usually wake up?
+
+  - key: health.sleep_measures
+    t: Sleep Strategies
+  - key: health.sleep_measures.question
+    t: What methods have you tried to improve your sleep, if any?
+
+  - key: options.sleep_measures.consistent_bedtime
+    t: Consistent bedtime
+  - key: options.sleep_measures.darkened_curtains
+    t: Darkened curtains
+  - key: options.sleep_measures.sleep_mask
+    t: Sleep mask
+  - key: options.sleep_measures.avoid_screens
+    t: Avoiding screens before bedtime
+  - key: options.sleep_measures.screen_dimming
+    t: Dimming screens before bedtime
+  - key: options.sleep_measures.earplugs
+    t: Earplugs
+  - key: options.sleep_measures.sleeping_pills
+    t: Sleeping pills
+  - key: options.sleep_measures.supplements
+    t: Supplements
+
+  - key: options.sleep_measures.exercise
+    t: Exercise
+  - key: options.sleep_measures.meditation_relaxation
+    t: Meditation and relaxation
+  - key: options.sleep_measures.sleep_environment
+    t: Good sleep environment
+  - key: options.sleep_measures.noise_machine
+    t: Noise machine
+  - key: options.sleep_measures.cpap_machine
+    t: CPAP machine
+  - key: options.sleep_measures.cannabis_cbd
+    t: Cannabis or CBD
+  - key: options.sleep_measures.reading_books
+    t: Reading
+  - key: options.sleep_measures.sound_therapy
+    t: Sound Therapy
+  - key: options.sleep_measures.better_sleep_schedule
+    t: Better sleep schedule
+  - key: options.sleep_measures.audiobooks_podcasts
+    t: Audiobooks or podcasts
+  - key: options.sleep_measures.music
+    t: Music
+  - key: options.sleep_measures.controlling_light_exposure
+    t: Controlling light exposure
+
+  # worldview
+
+  - key: worldview.left_right
+    t: Left vs Right
+  - key: worldview.left_right.question
+    t: Where do you place yourself on the left vs right economical axis?
+
+  - key: options.left_right.0
+    t: Far Left
+  - key: options.left_right.4
+    t: Center
+  - key: options.left_right.8
+    t: Far Right
+
+  # policies
+
+  # - key: worldview.policies
+  #   t: Policies
+  # - key: worldview.policies.question
+  #   t: How strongly do you agree or disagree about implementing these policy proposals?
+
+  # - key: options.policies.ubi
+  #   t: Universal basic income
+  # - key: options.policies.ubi.description
+  #   t: Government-provided minimum income for all citizens
+
+  # - key: options.policies.free_trade
+  #   t: Free trade
+  # - key: options.policies.free_trade.description
+  #   t: Free trade across countries with minimal restrictions.
+
+  # - key: options.policies.universal_health_care
+  #   t: Universal health care
+  # - key: options.policies.universal_health_care.description
+  #   t: Free access to health care regardless of personal wealth.
+
+  # - key: options.policies.open_borders
+  #   t: Open borders
+  # - key: options.policies.open_borders.description
+  #   t: Free movement of people between countries.
+
+  # - key: options.policies.drug_legalization
+  #   t: Drug decriminalization
+  # - key: options.policies.drug_legalization.description
+  #   t: Reduced or eliminated control or penalties for most drugs.
+
+  # - key: options.policies.hate_speech_regulations
+  #   t: Hate speech regulations
+  # - key: options.policies.hate_speech_regulations.description
+  #   t: Criminal penalties for some forms of offensive speech.
+
+  # - key: options.policies.affirmative_action
+  #   t: Affirmative action
+  # - key: options.policies.affirmative_action.description
+  #   t: Increased opportunities for specific disadvantaged groups.
+
+  # - key: options.policies.separation_church_state
+  #   t: Separation of church and state
+  # - key: options.policies.separation_church_state.description
+  #   t: Ensuring government does not favor one religion over another.
+
+  # - key: options.policies.progressive_taxation
+  #   t: High marginal tax rates
+  # - key: options.policies.progressive_taxation.description
+  #   t: Taxing the top income earners at higher rates.
+
+  # - key: options.policies.lgbtq_equality
+  #   t: Pro-LGBTQ policies
+  # - key: options.policies.lgbtq_equality.description
+  #   t: Policies aimed at improving the lives of LGBTQ individuals (same-sex marriage, etc.).
+
+  # - key: options.policies.reduced_government_size
+  #   t: Reduced government size
+  # - key: options.policies.reduced_government_size.description
+  #   t: Reducing the size of the government and expanding the private sector.
+
+  # - key: options.policies.dei_initiatives
+  #   t: DEI initiatives
+  # - key: options.policies.dei_initiatives.description
+  #   t: Initiatives aimed at increasing an organization's diversity and inclusivity.
+
+  # - key: options.policies.business_regulation
+  #   t: Business regulation
+  # - key: options.policies.business_regulation.description
+  #   t: Policies aimed at regulating how companies operate.
+
+  # - key: options.policies.interventionism
+  #   t: Foreign interventionism
+  # - key: options.policies.interventionism.description
+  #   t: Becoming involved in the internal affairs of other countries.
+
+  # - key: options.policies.climate_action
+  #   t: Climate action
+  # - key: options.policies.climate_action.description
+  #   t: Policies aimed at reducing global warming (driving bans, restrictions on cars, etc.).
+
+  # - key: options.policies.politics_free_workplace
+  #   t: Politics-free workplace
+  # - key: options.policies.politics_free_workplace.description
+  #   t: Banning political topics in the workplace.
+
+  # - key: worldview.policies_statements
+  #   t: Political Viewpoints
+  # - key: worldview.policies_statements.question
+  #   t: How strongly do you agree or disagree with the following statements?
+
+  # - key: options.policies_statements.ubi
+  #   t: All citizens should receive a government-provided universal basic income.
+
+  # - key: options.policies_statements.free_trade
+  #   t: There should be minimal restrictions to trade between countries.
+
+  # - key: options.policies_statements.universal_health_care
+  #   t: Everybody should have access to free access to health care regardless of wealth.
+
+  # - key: options.policies_statements.open_borders
+  #   t: Borders should be open to people fleeing war or poverty.
+
+  # - key: options.policies_statements.drug_legalization
+  #   t: Most drugs should be legal for personal usage.
+
+  # - key: options.policies_statements.hate_speech_regulations
+  #   t: Some forms of hate speech should be against the law.
+
+  # - key: options.policies_statements.affirmative_action
+  #   t: Historically disadvantaged groups should receive special opportunities.
+
+  # - key: options.policies_statements.separation_church_state
+  #   t: Government should not favor one religion over another.
+
+  # - key: options.policies_statements.progressive_taxation
+  #   t: Top income earners should be taxed at very high rates.
+
+  # - key: options.policies_statements.lgbtq_equality
+  #   t: Same-sex couples should be able to get married.
+
+  # - key: options.policies_statements.reduced_government_size
+  #   t: Government size should generally be reduced in favor of the private sector.
+
+  # - key: options.policies_statements.dei_initiatives
+  #   t: Increasing diversity and inclusivity in organizations is important.
+
+  # - key: options.policies_statements.business_regulation
+  #   t: Companies should be able to operate with minimal regulations.
+
+  # - key: options.policies_statements.interventionism
+  #   t: Becoming involved in the internal affairs of other countries is sometimes necessary.
+
+  # - key: options.policies_statements.climate_action
+  #   t: Strong action (car bans, driving restrictions, etc.) is needed to combat climate change.
+
+  # - key: options.policies_statements.politics_free_workplace
+  #   t: Workplaces should ban the discussion of political topics.
+
+  # - key: options.policies_statements.gender_spectrum
+  #   t: Children should be taught that gender is a spectrum.
+
+  # - key: options.policies_statements.cultural_diversity
+  #   t: Cultural and racial diversity is overall a net positive for a country.
+
+  # - key: options.policies_statements.individual_rights
+  #   t: It's sometimes necessary to sacrifice indivdual rights to preserve law and order.
+
+  # - key: options.policies.ai_regulation
+  #   t: AI regulations
+
+  - key: worldview.global_issues
+    t: Global Issues
+  - key: worldview.global_issues.question
+    t: What global issues are currently most concerning to you?
+
+  - key: options.global_issues.climate_change
+    t: Climate change
+  - key: options.global_issues.global_pandemics
+    t: Global pandemics
+  - key: options.global_issues.refugees_immigration
+    t: Refugee & migration crisis
+  - key: options.global_issues.economic_inequality
+    t: Economic inequality
+  - key: options.global_issues.healthcare_access
+    t: Healthcare access
+  - key: options.global_issues.geopolitical_tensions
+    t: Geopolitical tensions
+  - key: options.global_issues.ai_threats
+    t: AI threats
+  - key: options.global_issues.rising_authoritarianism
+    t: Rising authoritarianism
+  - key: options.global_issues.rising_intolerance
+    t: Rising intolerance
+  - key: options.global_issues.erosion_traditional_values
+    t: Erosion of traditional values
+  - key: options.global_issues.globalization
+    t: Globalization
+  - key: options.global_issues.lack_of_free_speech
+    t: Lack of free speech
+
+  - key: options.global_issues.war_and_conflict
+    t: War & conflict
+  - key: options.global_issues.gaza_israel_conflict
+    t: Gaza conflict
+  - key: options.global_issues.trump
+    t: Trump
+  - key: options.global_issues.lgbtq_rights
+    t: LGBTQ rights
+
+  # # companies_opinion
+
+  # - key: worldview.companies_opinion
+  #   t: Companies
+  # - key: worldview.companies_opinion.question
+  #   t: What's your opinion of the following companies?
+
+  # happiness_factors
+  - key: worldview.happiness_factors
+    t: Happiness Factors
+  - key: worldview.happiness_factors.description
+    t: Which factors most influence your own personal happiness?
+
+  - key: options.happiness_factors.health
+    t: Good health
+  - key: options.happiness_factors.career_progress
+    t: Career progress
+  - key: options.happiness_factors.romantic_relationships
+    t: Romantic relationships
+  - key: options.happiness_factors.other_relationships
+    t: Friendships
+  - key: options.happiness_factors.hobbies
+    t: Hobbies
+  - key: options.happiness_factors.family
+    t: Family
+  - key: options.happiness_factors.community
+    t: Community
+  - key: options.happiness_factors.material_possessions
+    t: Wealth and material possessions
+  - key: options.happiness_factors.living_environment
+    t: Living environment
+  - key: options.happiness_factors.religion_spirituality
+    t: Religion and/or spirituality
+
+  - key: options.happiness_factors.pets
+    t: Pets
+  - key: options.happiness_factors.exercise
+    t: Exercise
+  - key: options.happiness_factors.freedom
+    t: Freedom
+
+  # overall_happiness
+
+  - key: worldview.overall_happiness
+    t: Overall Happiness
+    aliases:
+      - happiness.overall_happiness
+  - key: worldview.overall_happiness.question
+    t: Overall, how happy are you these days?
+    aliases:
+      - happiness.overall_happiness.question
+
+  # # personal_hope
+
+  # - key: worldview.personal_hope
+  #   t: Personal Hope
+  # - key: worldview.personal_hope.question
+  #   t: I feel hopeful about myself and my family's future
+
+  # # country_hope
+
+  # - key: worldview.country_hope
+  #   t: Country Hope
+  # - key: worldview.country_hope.question
+  #   t: I feel hopeful about my country's future
+
+  # # world_hope
+
+  # - key: worldview.world_hope
+  #   t: World Hope
+  # - key: worldview.world_hope.question
+  #   t: I feel hopeful about the world's future
+
+  # relocation
+
+  - key: worldview.relocation
+    t: Relocation
+    aliases:
+      - country.relocation
+  - key: worldview.relocation.question
+    t: If you had the opportunity to live in another country for a few years, where would you like to go?
+    aliases:
+      - country.relocation.question
+
+  # hobbies
+
+  - key: hobbies.physical_activity
+    t: Physical Activity
+  - key: hobbies.physical_activity.question
+    t: Which of the following physical activites do you practice regularly?
+
+  - key: options.physical_activity.climbing
+    t: Climbing
+  - key: options.physical_activity.martial_arts
+    t: Martial arts
+  - key: options.physical_activity.running
+    t: Running
+  - key: options.physical_activity.strength_training
+    t: Strength training
+  - key: options.physical_activity.swimming
+    t: Swimming
+  - key: options.physical_activity.yoga
+    t: Yoga
+  - key: options.physical_activity.gymnastics
+    t: Gymnastics
+  - key: options.physical_activity.golf
+    t: Golf
+  - key: options.physical_activity.tennis
+    t: Tennis
+  - key: options.physical_activity.soccer
+    t: Soccer
+  - key: options.physical_activity.biking
+    t: Biking
+  - key: options.physical_activity.hiking_walking
+    t: Hiking/walking
+
+  - key: options.physical_activity.dancing
+    t: Dancing
+  - key: options.physical_activity.basket_ball
+    t: Basket-ball
+  - key: options.physical_activity.badminton
+    t: Badminton
+  - key: options.physical_activity.pilates
+    t: Pilates
+  - key: options.physical_activity.volleyball
+    t: Volleyball
+  - key: options.physical_activity.rowing
+    t: Rowing
+  - key: options.physical_activity.padel
+    t: Padel
+  - key: options.physical_activity.skiing
+    t: Skiing
+
+  - key: health.physical_activity_frequency
+    t: Exercise Frequency
+  - key: health.physical_activity_frequency.question
+    t: Typically, how many days a week do you exercise?
+
+  - key: options.physical_activity_frequency.0
+    t: 0
+  - key: options.physical_activity_frequency.1
+    t: 1
+  - key: options.physical_activity_frequency.2
+    t: 2
+  - key: options.physical_activity_frequency.3
+    t: 3
+  - key: options.physical_activity_frequency.4
+    t: 4
+  - key: options.physical_activity_frequency.5
+    t: 5
+  - key: options.physical_activity_frequency.6
+    t: 6
+  - key: options.physical_activity_frequency.7
+    t: 7
+
+  - key: hobbies.hobbies
+    t: Hobbies
+  - key: hobbies.hobbies.question
+    t: What are your hobbies?
+
+  - key: options.hobbies.woodworking
+    t: Woodworking/DIY
+  - key: options.hobbies.table_top_gaming
+    t: Table-top gaming
+  - key: options.hobbies.video_games
+    t: Video games
+  - key: options.hobbies.music
+    t: Playing music
+  - key: options.hobbies.cooking
+    t: Cooking
+  - key: options.hobbies.reading
+    t: Reading
+  - key: options.hobbies.arts_and_crafts
+    t: Arts and crafts
+  - key: options.hobbies.electronics
+    t: Electronics
+  - key: options.hobbies.gardening
+    t: Gardening
+  - key: options.hobbies.camping
+    t: Camping
+  - key: options.hobbies.sports_exercise
+    t: Sports/exercise
+  - key: options.hobbies.movies_tv
+    t: Movies/TV
+
+  - key: options.hobbies.programming
+    t: Programming
+  - key: options.hobbies.photography
+    t: Photography
+  - key: options.hobbies.hiking_walking
+    t: Hiking or walking
+  - key: options.hobbies.writing
+    t: Writing
+  - key: options.hobbies.travel
+    t: Travel
+  - key: options.hobbies.dancing
+    t: Dancing
+  - key: options.hobbies.3d_printing
+    t: 3D-printing
+  - key: options.hobbies.language_learning
+    t: Language learning
+
+  # hobbies_frequency
+
+  - key: hobbies.hobbies_frequency
+    t: Hobbies Frequency
+  - key: hobbies.hobbies_frequency.question
+    t: How often are you able to practice your hobbies?
+
+  - key: options.hobbies_frequency.once_a_year_less
+    t: Once a year or less
+  - key: options.hobbies_frequency.few_times_per_year
+    t: A few times per year
+  - key: options.hobbies_frequency.few_times_per_month
+    t: A few times per month
+  - key: options.hobbies_frequency.few_times_per_week
+    t: A few times per week
+  - key: options.hobbies_frequency.every_day
+    t: Every day
+
+  # video_game_platforms
+
+  - key: hobbies.video_game_platforms
+    t: Video Game Platforms
+  - key: hobbies.video_game_platforms.question
+    t: Which video game platforms do you play on?
+
+  - key: options.video_game_platforms.nintendo_switch
+    t: Switch
+  - key: options.video_game_platforms.playstation
+    t: Playstation
+  - key: options.video_game_platforms.xbox
+    t: XBox
+  - key: options.video_game_platforms.pc
+    t: PC
+  - key: options.video_game_platforms.mac
+    t: macOS
+  - key: options.video_game_platforms.ios
+    t: iOS
+  - key: options.video_game_platforms.android
+    t: Android
+  - key: options.video_game_platforms.steamdeck
+    t: Steamdeck
+  - key: options.video_game_platforms.retro_emulation_console
+    t: Retro emulation consoles
+
+  # favorite_video_games
+
+  - key: hobbies.favorite_video_games
+    t: Favorite Video Games
+  - key: hobbies.favorite_video_games.question
+    t: What have been some of your favorite video games recently?
+  - key: hobbies.favorite_video_games.prompt
+    t: Games you've played during the past 12 months.
+
+  # favorite_musical_artists
+
+  - key: hobbies.favorite_musical_artists
+    t: Favorite Music
+  - key: hobbies.favorite_musical_artists.question
+    t: What have been some of your favorite musical artists recently?
+  - key: hobbies.favorite_musical_artists.prompt
+    t: Artists you've listened to during the past 12 months.
+
+  # favorite_movies
+
+  - key: hobbies.favorite_movies
+    t: Favorite Movies
+  - key: hobbies.favorite_movies.question
+    t: What have been some of your favorite movies recently?
+  - key: hobbies.favorite_movies.prompt
+    t: Movies you've seen during the past 12 months.
+
+  # favorite_tv
+
+  - key: hobbies.favorite_tv
+    t: Favorite TV Shows
+  - key: hobbies.favorite_tv.question
+    t: What have been some of your favorite TV shows recently?
+  - key: hobbies.favorite_tv.prompt
+    t: TV/streaming shows you've seen during the past 12 months.
+
+    # musical_genres
+
+  - key: hobbies.musical_genres
+    t: Music
+  - key: hobbies.musical_genres.question
+    t: What are your favorite musical genres?
+
+  - key: options.musical_genres.rock
+    t: Rock
+  - key: options.musical_genres.hip_hop
+    t: Hip Hop
+  - key: options.musical_genres.pop
+    t: Pop
+  - key: options.musical_genres.edm
+    t: EDM
+  - key: options.musical_genres.country
+    t: Country
+  - key: options.musical_genres.classical
+    t: Classical
+  - key: options.musical_genres.jazz
+    t: Jazz
+  - key: options.musical_genres.latin
+    t: Latin
+  - key: options.musical_genres.soul
+    t: Soul
+  - key: options.musical_genres.funk
+    t: Funk
+  - key: options.musical_genres.reggae
+    t: Reggae
+  - key: options.musical_genres.metal
+    t: Metal
+  - key: options.musical_genres.kpop
+    t: K-pop
+  - key: options.musical_genres.soundtracks
+    t: Soundtracks
+
+  # user_info
+
+  - key: user_info.number_of_kids
+    t: Number of Kids
+  - key: user_info.number_of_kids.question
+    t: How many children do you have?
+
+  - key: options.number_of_kids.range_0
+    t: None
+  - key: options.number_of_kids.range_1
+    t: 1
+  - key: options.number_of_kids.range_2
+    t: 2
+  - key: options.number_of_kids.range_3
+    t: 3
+  - key: options.number_of_kids.range_4
+    t: 4
+  - key: options.number_of_kids.range_over_5
+    t: 5 or more
+
+  - key: user_info.relationship_status
+    t: Relationship Status
+  - key: user_info.relationship_status.question
+    t: What is your current relationship status?
+
+  - key: options.relationship_status.single
+    t: Single
+  - key: options.relationship_status.in_a_relationship
+    t: In a relationship
+  - key: options.relationship_status.its_complicated
+    t: It's complicated
+
+  - key: options.relationship_status.divorced_separated
+    t: Divorced or separated
+  - key: options.relationship_status.married
+    t: Married
+  - key: options.relationship_status.polyamorous
+    t: Polyamorous
+  - key: options.relationship_status.widowed
+    t: Widowed
+
+  # FAQ
+
+  - key: faq.who_should_take_survey_devs
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_devs.description
+    t: >
+      This survey is for anybody who works or studies as a developer, programmer, or engineer, no matter their experience level or background.
+
+  - key: faq.survey_goals_devs
+    t: What are the goals of this survey?
+  - key: faq.survey_goals_devs.description
+    t: >
+      The goals of this survey are to gain a fuller picture of the developer ecosystem beyond purely technical trends.
+
+  - key: faq.data_used_devs
+    t: How will the collected data be used?
+  - key: faq.data_used_devs.description
+    t: >
+      A detailed report based on the data collected will be published and made freely accessible. Additionally, the full dataset will also be available for free [on demand](https://discord.gg/2E7bbgnrJJ).
+
+  # tabs
+  - key: tabs.vs_sleep_quantity
+    t: vs. Sleep Quantity
+  - key: tabs.vs_income_evolution
+    t: vs. Income Evolution
+  - key: tabs.vs_relationship_status
+    t: vs. Relationship Status
+  - key: tabs.vs_number_of_kids
+    t: vs. Number of Kids
+
+  # relocation countries
+
+  - key: options.relocation.AFG
+    aliasFor: options.country.AFG
+  - key: options.relocation.DZA
+    aliasFor: options.country.DZA
+  - key: options.relocation.ARG
+    aliasFor: options.country.ARG
+  - key: options.relocation.ARM
+    aliasFor: options.country.ARM
+  - key: options.relocation.AUS
+    aliasFor: options.country.AUS
+  - key: options.relocation.AUT
+    aliasFor: options.country.AUT
+  - key: options.relocation.BGD
+    aliasFor: options.country.BGD
+  - key: options.relocation.BEL
+    aliasFor: options.country.BEL
+  - key: options.relocation.BLR
+    aliasFor: options.country.BLR
+  - key: options.relocation.BIH
+    aliasFor: options.country.BIH
+  - key: options.relocation.BRA
+    aliasFor: options.country.BRA
+  - key: options.relocation.BGR
+    aliasFor: options.country.BGR
+  - key: options.relocation.CAN
+    aliasFor: options.country.CAN
+  - key: options.relocation.CRI
+    aliasFor: options.country.CRI
+  - key: options.relocation.HRV
+    aliasFor: options.country.HRV
+  - key: options.relocation.CHE
+    aliasFor: options.country.CHE
+  - key: options.relocation.CHL
+    aliasFor: options.country.CHL
+  - key: options.relocation.CHN
+    aliasFor: options.country.CHN
+  - key: options.relocation.COD
+    aliasFor: options.country.COD
+  - key: options.relocation.COL
+    aliasFor: options.country.COL
+  - key: options.relocation.CIV
+    aliasFor: options.country.CIV
+  - key: options.relocation.CYP
+    aliasFor: options.country.CYP
+  - key: options.relocation.CZE
+    aliasFor: options.country.CZE
+  - key: options.relocation.DEU
+    aliasFor: options.country.DEU
+  - key: options.relocation.GRC
+    aliasFor: options.country.GRC
+  - key: options.relocation.DNK
+    aliasFor: options.country.DNK
+  - key: options.relocation.EGY
+    aliasFor: options.country.EGY
+  - key: options.relocation.EST
+    aliasFor: options.country.EST
+  - key: options.relocation.ETH
+    aliasFor: options.country.ETH
+  - key: options.relocation.FIN
+    aliasFor: options.country.FIN
+  - key: options.relocation.FRA
+    aliasFor: options.country.FRA
+  - key: options.relocation.GEO
+    aliasFor: options.country.GEO
+  - key: options.relocation.GHA
+    aliasFor: options.country.GHA
+  - key: options.relocation.HKG
+    aliasFor: options.country.HKG
+  - key: options.relocation.HUN
+    aliasFor: options.country.HUN
+  - key: options.relocation.IND
+    aliasFor: options.country.IND
+  - key: options.relocation.IDN
+    aliasFor: options.country.IDN
+  - key: options.relocation.IRL
+    aliasFor: options.country.IRL
+  - key: options.relocation.ISL
+    aliasFor: options.country.ISL
+  - key: options.relocation.IRN
+    aliasFor: options.country.IRN
+  - key: options.relocation.IRQ
+    aliasFor: options.country.IRQ
+  - key: options.relocation.ITA
+    aliasFor: options.country.ITA
+  - key: options.relocation.ISR
+    aliasFor: options.country.ISR
+  - key: options.relocation.JPN
+    aliasFor: options.country.JPN
+  - key: options.relocation.KEN
+    aliasFor: options.country.KEN
+  - key: options.relocation.LTU
+    aliasFor: options.country.LTU
+  - key: options.relocation.LVA
+    aliasFor: options.country.LVA
+  - key: options.relocation.LUX
+    aliasFor: options.country.LUX
+  - key: options.relocation.MDA
+    aliasFor: options.country.MDA
+  - key: options.relocation.MEX
+    aliasFor: options.country.MEX
+  - key: options.relocation.MMR
+    aliasFor: options.country.MMR
+  - key: options.relocation.NPL
+    aliasFor: options.country.NPL
+  - key: options.relocation.MKD
+    aliasFor: options.country.MKD
+  - key: options.relocation.NOR
+    aliasFor: options.country.NOR
+  - key: options.relocation.NLD
+    aliasFor: options.country.NLD
+  - key: options.relocation.NGA
+    aliasFor: options.country.NGA
+  - key: options.relocation.NZL
+    aliasFor: options.country.NZL
+  - key: options.relocation.POL
+    aliasFor: options.country.POL
+  - key: options.relocation.PRT
+    aliasFor: options.country.PRT
+  - key: options.relocation.PAK
+    aliasFor: options.country.PAK
+  - key: options.relocation.PER
+    aliasFor: options.country.PER
+  - key: options.relocation.PHL
+    aliasFor: options.country.PHL
+  - key: options.relocation.ROU
+    aliasFor: options.country.ROU
+  - key: options.relocation.RUS
+    aliasFor: options.country.RUS
+  - key: options.relocation.SAU
+    aliasFor: options.country.SAU
+  - key: options.relocation.SRB
+    aliasFor: options.country.SRB
+  - key: options.relocation.SGP
+    aliasFor: options.country.SGP
+  - key: options.relocation.SVK
+    aliasFor: options.country.SVK
+  - key: options.relocation.SVN
+    aliasFor: options.country.SVN
+  - key: options.relocation.ZAF
+    aliasFor: options.country.ZAF
+  - key: options.relocation.KOR
+    aliasFor: options.country.KOR
+  - key: options.relocation.ESP
+    aliasFor: options.country.ESP
+  - key: options.relocation.SWE
+    aliasFor: options.country.SWE
+  - key: options.relocation.TWN
+    aliasFor: options.country.TWN
+  - key: options.relocation.TZA
+    aliasFor: options.country.TZA
+  - key: options.relocation.THA
+    aliasFor: options.country.THA
+  - key: options.relocation.TUR
+    aliasFor: options.country.TUR
+  - key: options.relocation.UGA
+    aliasFor: options.country.UGA
+  - key: options.relocation.UKR
+    aliasFor: options.country.UKR
+  - key: options.relocation.URY
+    aliasFor: options.country.URY
+  - key: options.relocation.ARE
+    aliasFor: options.country.ARE
+  - key: options.relocation.GBR
+    aliasFor: options.country.GBR
+  - key: options.relocation.SCT
+    aliasFor: options.country.SCT
+  - key: options.relocation.USA
+    aliasFor: options.country.USA
+  - key: options.relocation.VEN
+    aliasFor: options.country.VEN
+  - key: options.relocation.VNM
+    aliasFor: options.country.VNM
