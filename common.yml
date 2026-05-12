@@ -234,13 +234,13 @@ translations:
     t: responses
 
   - key: finish.share_colleagues
-    t: 1. Share with friends and colleagues
+    t: Share with friends and colleagues
 
   - key: finish.share_colleagues.description
     t: Post it on Slack, Discord, Teams, or anywhere your developer friends hang out.
 
   - key: finish.share_social
-    t: 2. Share on social media
+    t: Share on social media
 
   # share
   - key: general.share_subject
